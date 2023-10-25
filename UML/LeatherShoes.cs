@@ -14,7 +14,7 @@ class Manufacturer{
             x.quantity+=demand;
             finance -= S.bill;    
     }
-    //Нахождение продукт, увеличить его количество в вкладе, и снять сырья для производства
+    //Нахождение ваппродукт, увеличить его количество в вкладе, и снять сырья для производства
     public void Produce(int productCode, int quantity){
         Product x = findProduct(productCode);                                   //Нахождение
         if (x == null) break;
